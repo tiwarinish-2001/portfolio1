@@ -379,13 +379,15 @@ For the server-side, PHP, SERVLET, and database MYSQL were used.</strong>
             </div>
         </div>
         <div class="contact-form">
-           <form action="send_mail.php" method="post">
-                <input type="text" placeholder="Enter Your Name" required>
-                <input type="email" placeholder="Enter Your Email" required>
-                <input type ="text"     placeholder="Enter Your Subject">
-                <textarea name="text" id="" cols="40" rows="10" placeholder="Enter Your  Message" required></textarea>
-                <input type="submit" value="submit" class="send">
-            </form>
+         <form action="send_mail.php" method="post">
+    <input type="text" name="name" placeholder="Enter Your Name" required>
+    <input type="email" name="email" placeholder="Enter Your Email" required>
+    <input type="text" name="subject" placeholder="Enter Your Subject">
+    <textarea name="message" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+    <input type="submit" value="Submit" class="send">
+</form>
+
+            
         </div>
     </section>
     
