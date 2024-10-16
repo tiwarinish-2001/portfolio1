@@ -50,7 +50,7 @@ body {
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url('right side.jpg') no-repeat center center fixed;
+    background: url('Untitled-2.g') no-repeat center center fixed;
     background-size: cover;
     background-position: center;
     justify-content: space-between;
@@ -132,7 +132,48 @@ body {
     box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header {
+        padding: 20px 5%;
+    }
+    .navbar a {
+        font-size: 20px;
+        margin-left: 25px;
+    }
+    .home-content h1 {
+        font-size: 48px;
+    }
+    .home-content p {
+        font-size: 18px;
+    }
+}
 
+@media (max-width: 480px) {
+    .header {
+        padding: 20px 3%;
+    }
+    .navbar a {
+        font-size: 18px;
+        margin-left: 15px;
+    }
+    .home-content {
+        max-width: 100%;
+        text-align: center;
+    }
+    .home-content h1 {
+        font-size: 36px;
+    }
+    .home-content p {
+        font-size: 16px;
+    }
+    .home-sci {
+        justify-content: center;
+    }
+    .home-sci a {
+        margin: 10px;
+    }
+}
 .about {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -140,18 +181,18 @@ body {
     gap: 1.5rem;
 }
 .about-img img {
-    padding-bottom: 20%;
-    max-width: 630px;
-
-    width: 100%;
-    border-radius: 8px;
-   
-    height: auto;
-   
+    padding-top: 1px;
+    max-width: 488px;
+    height: 50%;
+    width: 86%;
+    border-radius: 50px;
+    margin-left: -17px;
+    height: 356px;
+    margin-top: 88px;
 }
 .about-text h2 {
     font-size: 60px;
-    /* margin-top: 100px; */
+    margin-top: 100px;
 }
 .about-text h2 span {
     color: #0ef;
@@ -436,7 +477,7 @@ section {
     width: 50%;
     height: 170px;
     margin-bottom: 10px;
-    position: relative;-=                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       -=
+    position: relative;
 }
 .radial-bars .radial-bar svg {
     position: absolute;
@@ -529,7 +570,7 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(359px, 1fr));
     gap: 16px;
 }
-.row {https://supportsi.hexagon.com/help/s/login/?language=en_US&startURL=%2Fhelp%2Fs%2Fquestion%2F0D5Tc00000HHIuoKAH%2Fdetail%3Flanguage%3Den_US%26t%3D1728995183936
+.row {
     position: relative;
     overflow: hidden;
     border-radius: 8px;
@@ -674,7 +715,6 @@ section {
     .contact-text h4, .contact-text p {
         font-size: 18px;
         text-align: center;
-    
     }
     .radial-bar .text, .contact-list i {
         font-size: 13px;
@@ -946,7 +986,6 @@ section {
         opacity: 1;
     }
 }
-
 
 
 
